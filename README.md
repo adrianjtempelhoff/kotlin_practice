@@ -13,3 +13,9 @@ Kotlin projects and scripts
 > The Android Kotlin compiler produces Java 6 bytecode by default (which runs in any later JVM), but lets the programmer choose to target Java 8 up to 15, for optimization, or allows for more features, e.g. Java 8 related with Kotlin 1.4, and has experimental record class support for Java 16 compatibility.
 > 
 > Kotlin support for JavaScript (i.e. classic back-end) is considered stable in Kotlin 1.3 by its developers, while Kotlin/JS (IR-based) in version 1.4, is considered alpha. Kotlin/Native Runtime (for e.g. Apple support) is considered beta.
+
+To run these from the command line use:
+```
+kotlinc -script <kotlin script file>
+```
+
